@@ -32,6 +32,14 @@ axios.delete(`${baseURL}/${id}`)
 .catch(errCallback)
 }
 
+
+
+
+
+
+
+
+
 function submitHandler(e) {
     e.preventDefault()
 let title = document.querySelector('#title')

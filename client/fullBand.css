@@ -3,7 +3,11 @@ header {
   font-size: 50px;
   text-align:center;
   position: relative;
-  top: 20px;
+  top: 30px;
+  background-color: rgba(0, 0, 0, 0.664);
+  width: 700px;
+  padding: 20px;
+  left: 20px
 }
 
 .bandPictures {
@@ -15,24 +19,27 @@ header {
 }
 
 .backgroundPhoto {
-    background-image: url(https://i2.wp.com/liveforlivemusic.com/wp-content/uploads/2021/11/billy-strings-11-11-21-fillmore-philly-jesse-faats-articlecover.png?resize=740%2C390&ssl=1);
-    /* z-index: -5; */
-    height: 100vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/56ffbeec4d088e7781fce601/1548908905262-ZIOVE9PTJBIZP2E1BEBJ/Red+Rocks+Lakewood+campus+beginning+of+service++stage+lighting+2);
+    /* z-index: -15; */
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 }
 
 
 #Walker{
 background-color: rgb(3, 3, 3);
-border: 2px solid black;
-padding: 10px;
+border: 2px solid black; 
+padding: 5px;
 box-sizing:border-box;
 /* margin: 20px; */
 position:relative;
-left: 10px;
+left: -15px;
 height: 300px;
 width: 300px;
-top: 60px;
-border-radius: 10px;
+top: 280px;
+/* border-radius: 10px; */
 }
 
 .jarrodContainer {
@@ -62,8 +69,9 @@ border-radius: 10px;
     font-size: 20px;
     padding: 20px;
     text-align: center;
-    left: 70px;
-    bottom: 25px;
+    left: 40px;
+    bottom: -275px;
+    
   }
   
   
@@ -77,14 +85,13 @@ border-radius: 10px;
 #Masot{
 background-color: black;
 border: 2px solid black;
-padding: 10px;
+padding: 5px;
 box-sizing:border-box;
 /* margin: 40px; */
 position: relative;
 height: 300px;
 width: 300px;
-top: 60px;
-border-radius: 10px;
+top: 280px;
 }
 
 
@@ -115,8 +122,8 @@ border-radius: 10px;
     font-size: 20px;
     padding: 20px;
     text-align: center;
-    left: 70px;
-    bottom: 25px;
+    left: 60px;
+    bottom: -275px;
   }
   
   .royalContainer:hover .overlayRoyal {
@@ -127,14 +134,13 @@ border-radius: 10px;
 #Strings{
 background-color: black;
 border: 2px solid black;
-padding: 10px;
+padding: 5px;
 box-sizing:border-box;
 /* margin: 40px; */
 height: 300px;
 width: 300px;
 position: relative;
-top: 60px;
-border-radius: 10px;
+top: 280px;
 
 }
 
@@ -166,8 +172,8 @@ border-radius: 10px;
     font-size: 20px;
     padding: 20px;
     text-align: center;
-    left: 70px;
-    bottom: 25px;
+    left: 60px;
+    bottom: -275px;
   }
   
   
@@ -178,15 +184,14 @@ border-radius: 10px;
 #Failing{
 background-color: black;
 border: 2px solid black;
-padding: 10px;
+padding: 5px;
 box-sizing:border-box;
 /* margin: 40px; */
 position: relative;
 right: 10px;
-top: 60px;
+top: 280px;
 height: 300px;
 width: 300px;
-border-radius: 10px;
 }
 
 
@@ -218,7 +223,7 @@ border-radius: 10px;
     padding: 20px;
     text-align: center;
     left: 50px;
-    bottom: 25px;
+    bottom: -275px;
   }
   
   
@@ -226,14 +231,33 @@ border-radius: 10px;
     opacity: 1;
   }
 
-h2 {
-    display: flex;
-    justify-content: space-evenly;
-}
-  .textContainer {
-      color: rgb(12, 11, 11);
-      background-color: rgb(240, 220, 220);
-      /* border: 9px solid rgb(27, 26, 26); */
-      border-style:ridge;
-      border-radius: 40px;
+
+
+
+  h2 {
+    position: relative;
+    bottom: 300px;
+    left: 450px; 
+    background-color: rgba(2, 2, 2, 0.411);
+    width: 630px;
+    border-radius: 5px;
+    color: white;
+    font-size: 29px
+    
   }
+
+  /* .boxthing{
+    background-color: black;
+    height: 20px;
+    width: 400px;
+    z-index: 6
+  } */
+
+
+  /* .socials{
+    height: 280px;
+    width: 280px;
+    position: relative;
+    top: 90px;
+    z-index: 10
+  } */

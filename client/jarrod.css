@@ -34,17 +34,18 @@ header {
     bottom: 0px;
     width: 775px;
   }
+  
 
-  #borderLeft {
+  /* #borderLeft {
     border-left:  3px double #8a8383;
    position: relative;
    bottom: 1600px;
    width: 100px;
    height:2100px;
    right: 850px;
-  }
+  } */
 
-  #borderRight {
+  /* #borderRight {
     border-right:  3px double #8a8383;
     position: relative;
     bottom: 3710px;
@@ -59,7 +60,7 @@ header {
       bottom: 3600px;
       width: 1200px;
       right: 600px;
-  }
+  } */
 
 .twoSoloVideos {
     display: flex;
@@ -94,14 +95,14 @@ header {
 form {
     width: 550px;
     min-height: 300px;
-    background-color: rgb(223, 135, 113);
+    background-color: rgb(228, 167, 87);
     position: relative;
     display: flex; 
     flex-direction: column;
     justify-content: space-evenly; 
     align-items: center;
     /* margin: 100px; */
-    border: white 1px solid;
+    border: rgb(247, 247, 250) 1px solid;
     left: 600px;
     top: 30px;
   }
@@ -113,7 +114,7 @@ h2{
     position: relative;
     bottom: 290px;
     width: 550px;
-    left: 119px;
+    left: 110px;
     background-color: rgb(143, 79, 127);
     padding: 5px;
     text-align: center;
@@ -127,18 +128,19 @@ h4{
     position: relative;
     bottom: 310px;
     width: 550px;
-    left: 119px;
+    left: 110px;
     background-color: rgb(143, 79, 127);
     padding: 5px;
     text-align: center;
     font-size: 24px;
+  
 }
 h5{
     color:rgb(5, 5, 5);
     position: relative;
     bottom: 340px;
     width: 550px;
-    left: 119px;
+    left: 110px;
     background-color: rgb(143, 79, 127);
     padding: 5px;
     text-align: center;
@@ -150,7 +152,7 @@ h6{
     position: relative;
     bottom: 385px;
     width: 550px;
-    left: 119px;
+    left: 110px;
     background-color: rgb(143, 79, 127);
     padding: 5px;
     text-align: center;
@@ -164,12 +166,14 @@ h6{
 h3 {
     color: rgb(14, 10, 10);
     text-align: center;
+    font-size: 21px;
+    
 }
 input[type='text'] {
     width: 85%;
     height: 30px;
     border: none;
-    border-bottom: 2px solid #9e2828;
+    border-bottom: 2px solid #311cf1;
     color: #070707;
     background-color: snow;
   }
@@ -228,8 +232,10 @@ input[type='text'] {
 
 
 #deleteSoloButton {
-    background-color: green;
+    background-color: rgb(5, 5, 5);
     color: rgb(3, 3, 5);
+    position: relative;
+    top: 700px;
 }
 .jarrodSolo{
     background-color: rgb(30, 44, 107);
@@ -259,7 +265,7 @@ input[type='text'] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(4, 20, 245, 0.733);
+    background-color: rgba(4, 157, 245, 0.438);
     border: 2px solid black;
     padding: 75px;
     box-sizing:border-box;
@@ -371,4 +377,10 @@ input[type='text'] {
     background-color: rgb(39, 124, 124);
     border-radius: 10px;
     padding: 3px;
+}
+
+
+.solo-title{
+    color:white;
+    font-size: 15px;
 }

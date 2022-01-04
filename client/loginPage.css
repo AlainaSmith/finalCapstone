@@ -190,6 +190,7 @@ h1{
 #createButton {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+  z-index: 5;
 }
 h3 {
  color: black;
