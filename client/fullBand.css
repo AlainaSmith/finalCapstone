@@ -1,0 +1,239 @@
+header {
+  color:white;
+  font-size: 50px;
+  text-align:center;
+  position: relative;
+  top: 20px;
+}
+
+.bandPictures {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.backgroundPhoto {
+    background-image: url(https://i2.wp.com/liveforlivemusic.com/wp-content/uploads/2021/11/billy-strings-11-11-21-fillmore-philly-jesse-faats-articlecover.png?resize=740%2C390&ssl=1);
+    /* z-index: -5; */
+    height: 100vh;
+}
+
+
+#Walker{
+background-color: rgb(3, 3, 3);
+border: 2px solid black;
+padding: 10px;
+box-sizing:border-box;
+/* margin: 20px; */
+position:relative;
+left: 10px;
+height: 300px;
+width: 300px;
+top: 60px;
+border-radius: 10px;
+}
+
+.jarrodContainer {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .walkerPhoto {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlayJarrod {
+    position: relative;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    left: 70px;
+    bottom: 25px;
+  }
+  
+  
+  .jarrodContainer:hover .overlayJarrod {
+    opacity: 1;
+  }
+
+
+
+
+#Masot{
+background-color: black;
+border: 2px solid black;
+padding: 10px;
+box-sizing:border-box;
+/* margin: 40px; */
+position: relative;
+height: 300px;
+width: 300px;
+top: 60px;
+border-radius: 10px;
+}
+
+
+.royalContainer {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .masotPhoto {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlayRoyal {
+    position: relative;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    left: 70px;
+    bottom: 25px;
+  }
+  
+  .royalContainer:hover .overlayRoyal {
+    opacity: 1;
+  }
+
+
+#Strings{
+background-color: black;
+border: 2px solid black;
+padding: 10px;
+box-sizing:border-box;
+/* margin: 40px; */
+height: 300px;
+width: 300px;
+position: relative;
+top: 60px;
+border-radius: 10px;
+
+}
+
+
+.stringsContainer {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .stringsPhoto {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlayStrings {
+    position: relative;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    left: 70px;
+    bottom: 25px;
+  }
+  
+  
+  .stringsContainer:hover .overlayStrings {
+    opacity: 1;
+  }
+
+#Failing{
+background-color: black;
+border: 2px solid black;
+padding: 10px;
+box-sizing:border-box;
+/* margin: 40px; */
+position: relative;
+right: 10px;
+top: 60px;
+height: 300px;
+width: 300px;
+border-radius: 10px;
+}
+
+
+.failingContainer {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .failingPhoto {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlayFailing {
+    position: relative;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    left: 50px;
+    bottom: 25px;
+  }
+  
+  
+  .failingContainer:hover .overlayFailing {
+    opacity: 1;
+  }
+
+h2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+  .textContainer {
+      color: rgb(12, 11, 11);
+      background-color: rgb(240, 220, 220);
+      /* border: 9px solid rgb(27, 26, 26); */
+      border-style:ridge;
+      border-radius: 40px;
+  }

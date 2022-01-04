@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = 'stylesheet' href = 'loginPage.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<main>
+
+    <div class = "bigBoxFlex">
+        <div id = "bigBox"></div>
+    </div>
+    
+    <center><div id="borderOne"></div></center> 
+    <center><div id="borderTwo"></div></center> 
+
+ 
+   
+  
+    <div class = "loginForm">
+    
+        <form id = 'loginLog'>
+         
+          <input type='text'
+          id="firstName" 
+          placeholder="Username"
+          style="width:190px"/>
+      
+          <input type='text'
+                id="lastName"
+                placeholder='Password'
+                style="width:190px"/>
+
+            </form>
+            <a href = "./fullBand.html" id = "loginButton">Login</a>
+        </div>
+        
+    <div class = "createAccountForm">
+        <form id = 'createAccount'>
+         
+          <input type='text'
+          id="createAccountFirstName" 
+          placeholder="First Name"
+          style="width:190px"/>
+      
+          <input type='text'
+                id="createAccountLastName"
+                placeholder='Username'
+                style="width:190px"/>
+      
+          <input type='text'
+                    id="createAccountEmail"
+                    placeholder='Email Address'
+                    style="width:190px"/>
+      
+          <input type='text'
+                    id="createAccountPassword"
+                    placeholder='Password'
+                    style="width:190px"/>
+      
+            <button id ="createButton">Create Account</button>
+        </form>
+      </div>
+    </div>
+
+      <!-- <div class = "imageee">
+        <img id = 'flore' src = "./instruments/flore.png" alt = "vine" 
+    height= "300"
+    width= "420"/>  
+    </div>" -->
+
+      <h1>Fan Login</h1>
+      <h3>Create an Account</h3>
+  
+        <img id = 'billyLogo' src = "./instruments/billylogo.png" alt = "logo" 
+        height= "175"
+        width= "275"/>
+     
+        <div class= "redFlex">
+      <div id = "redBox"></div>  
+</div>
+
+      <div class = "albumPhotos">
+
+      <img id = 'billy2' src = "./instruments/billy2.png" alt = "2" 
+      height= "175"
+      width= "275"/>
+
+      <img id = 'billy3' src = "./instruments/billy3.png" alt = "3" 
+      height= "175"
+      width= "275"/>
+
+      <img id = 'billy4' src = "./instruments/billy4.png" alt = "4" 
+      height= "175"
+      width= "275"/>
+
+    </div>
+
+    <div class = "leafOne">  
+     
+        <img id = 'leafuno' src = "./instruments/leaf.png" alt = "vine" 
+        height= "480"
+        width= "400"/>
+      
+      </div>  
+
+      <div class = "leafTwo">  
+     
+        <img id = 'leafdos' src = "./instruments/leafTwo.png" alt = "vine" 
+        height= "480"
+        width= "400"/>
+      
+      </div>  
+</main>
+    
+<script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="loginPage.js"></script>
+
+</body>
+</html>

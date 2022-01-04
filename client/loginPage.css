@@ -1,0 +1,215 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } */
+
+
+  body{
+    background-image: url(https://media.istockphoto.com/photos/gray-shadow-of-leaves-on-a-white-wall-picture-id1319875260?b=1&k=20&m=1319875260&s=170667a&w=0&h=qlR13vDldCbcf17uBORXlYSyY1g76h5jyyX3G1Yssas=);
+    z-index: -5;
+    /* height: 30vh; */
+    background-repeat:repeat-x;
+    
+}
+
+   body {
+    background-color: rgb(65, 7, 49);
+  } 
+  
+  header {
+    font-size: 50px;
+    /* display: flex;  */
+    /* justify-content: center;  */
+    /* align-items: center; */
+    color: rgb(10, 10, 10);
+  }
+
+
+  main {
+    display: flex; 
+    justify-content: center;
+    
+  }
+  
+  
+
+  a {
+    color:white;
+  }
+
+  #loginButton{
+    position:relative;
+    top: 280px;
+    left: 410px;
+    color: black;
+    border: 1px black solid;
+    height: 20px;
+    width: 43px;
+    background-color:rgb(245, 245, 245);
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+   
+  }
+
+  input[type='text'] {
+    width: 85px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #232323;
+    background-color: rgb(245, 245, 248);
+    z-index:9
+  }
+  
+  input[type='password'] {
+    width: 85px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #232323;
+    background-color: snow;
+
+  }
+  
+#billyLogo{
+    position: relative;
+    top:20px;
+    right: 160px;
+    z-index: 2;
+    margin:10px;
+  }
+
+  .redFlex{
+    display: flex;
+
+  }
+  #redBox{
+  width: 181px;
+  height: 190px;
+  background-color:rgb(231, 8, 8);
+  border: dotted black 4px;
+  position: relative;
+  right: 400px;
+  z-index: 1;
+  border-radius: 7px;
+  top:20px;
+  
+}
+
+
+.albumPhotos {
+  display:flex;
+  justify-content: space-between;
+  position:relative;
+  top: 10px;
+  right: 320px;
+  
+}
+
+#billy2{
+  margin: 20px;
+  border: rgb(29, 28, 28) 6px double;
+}
+#billy3{
+  margin: 20px;
+  border: rgb(29, 28, 28) 6px double;
+}
+#billy4{
+  margin: 20px;
+  border: rgb(29, 28, 28) 6px double;
+}
+
+
+.loginForm{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 700px;
+    top: 300px;
+}
+
+
+h1{
+  color: rgb(5, 5, 5);
+  position: relative;
+  top: 250px;
+  left: 570px;
+  font-size: 26px;
+  white-space: nowrap;
+  /* background-color: rgba(95, 158, 160, 0.411);
+  height: 30px;
+  width: 140px;
+  padding: 5px;
+  border-radius: 8px; */
+}
+
+
+    #loginLog{
+    width: 300px;
+    height: 280px;
+    background-color: rgb(223, 135, 113);
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 50px;
+    border: white 1px solid;
+    left: 640px;
+    border-radius: 8px;
+  }
+
+
+.createAccountForm {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  left: 645px;
+  top: 250px;
+}
+
+#createAccount{
+  width: 350px;
+    min-height: 350px;
+    background-color: rgb(223, 135, 113);
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 50px;
+    border: white 1px solid;
+    left: 580px;
+    border-radius:8px;
+}
+
+#createButton {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+ color: black;
+ position: relative;
+ top: 230px;
+ left: 780px;
+ white-space: nowrap;
+ font-size: 26px;
+
+}
+
+
+.leafOne{
+  position:relative;
+  top: 300px;
+  right:690px
+}
+
+.leafTwo{
+  position: relative;
+  top: 300px;
+  right: 2000px;
+}

@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(216, 142, 31);
+}
+
+#mainVid {
+    display: flex;
+    justify-content: center;
+    z-index: 170px;
+}
+
+.flex {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#magicLink{
+  animation: rotation 7s infinite linear;
+  position:relative;
+  bottom: 200px;
+  font-size: 40px;
+  animation-direction: alternate;
+  color:white;
+  font-size: 45px;
+  
+  }
+
+
+#magicLink:hover{
+  color:rgb(3, 3, 3);
+  background-color: rgb(250, 246, 246);
+  
+}
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+
+
+/* .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  } */
+
+/* #iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  #iframe-container {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  } */
+
+
+
+
+
+  #scroll-container {
+    border: 3px solid black;
+    border-radius: 5px;
+    /* height: 100px; */
+    overflow: hidden;
+  }
+  
+  #scroll-text {
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+    
+    /* animation properties */
+    -moz-transform: translateY(1000%);
+    -webkit-transform: translateY(1000%);
+    transform: translateY(1000%);
+    
+    -moz-animation: my-animation 30s linear infinite;
+    -webkit-animation: my-animation 30s linear infinite;
+    animation: my-animation 30s linear infinite;
+  }
+  
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(1000%); }
+    to { -webkit-transform: translateY(-700%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(1000%);
+      -webkit-transform: translateY(1000%);
+      transform: translateY(1000%);
+    }
+    to {
+      -moz-transform: translateY(-700%);
+      -webkit-transform: translateY(-700%);
+      transform: translateY(-700%);
+    }
+  }
+
+
+  #scroll-text:hover {
+    animation-play-state:paused
+  }

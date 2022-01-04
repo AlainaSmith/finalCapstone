@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(179, 67, 67);
+}
+
+/* #border{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    border-bottom: 2px solid #0004ff;
+    background: #cccaca; */
+
+
+#borderBottom{
+ border-top: 5px double #070707;
+  position: relative;
+  top: 90px;
+  bottom: 0px;
+  width: 975px;
+}
+
+
+
+
+#borderTop{
+    border-bottom: 5px double #06060a;
+     position: relative;
+     top: 330px;
+     bottom: 0px;
+     width: 975px;
+   }
+
+
+heading {
+    display: flex;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.pageContainer {
+    background: white;
+}
+.frontPageText{
+    font-size: 50px;
+    color: #282c23;
+    background-color: rgb(240, 174, 32);
+    border: solid black;
+    border-width: thick;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 150px;
+}
+
+#enterButton {
+    color: green;
+}
+
+#enterButton:hover{
+    color:rgb(75, 35, 216)
+}
+#instruments {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.mandolin {
+    animation: rotation 10s infinite linear;
+    position:relative;
+    top: 275px;
+}
+
+.bass {
+    animation: rotation 10s infinite linear;
+    position:relative;
+    top: 275px;
+}
+
+.guitar{
+    animation: rotation 10s infinite linear;
+    position:relative;
+    top: 275px;
+}
+
+.banjo {
+    animation: rotation 10s infinite linear;
+    position:relative;
+    top: 275px;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(50deg);
+    }
+    to {
+      transform: rotate(400deg);
+    }
+  }
+
+ #notes {
+     position: relative;
+     bottom: 355px;
+     left: 1200px;
+ }
+
+ #noteCopy {
+    position:relative;
+    bottom: 250px;
+    left: 130px;
+ }

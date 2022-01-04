@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = 'stylesheet' href = 'royal.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <main>
+      <section>
+        <div id = 'clickers'>
+        <ol>
+          <a href="./fullBand.html" class = 'navbutton'>Musician Homepage</a></li>
+          <a href="./jarrod.html" class = 'navbutton'>Walker</a></li>
+          <a href="./strings.html" class = 'navbutton'>Apostol</a></li>
+          <a href="./failing.html" class = 'navbutton'>Failing</a></li>
+        </ol>
+      </div>
+
+
+      <header>
+        Royal Masat - Standing Bass
+      </header>d
+
+
+      <div class = "twoSoloVideos">
+      <section id = "soloUno">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RcGOCocIAEc?start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    </section>
+
+
+
+    <section id ="soloTwo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5DtkRqr-kU?controls=0&amp;start=66" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+  </div>
+
+  
+
+  <div class = "uploadSoloContainer">
+    <form id = 'videoUploadTwo'>
+      <h3>Upload your favorite solo here and view the video below
+        
+      </h3>
+      <input type='text'
+      id="title" 
+      placeholder="title of video"
+      style="width:250px"/>
+  
+      <input type='text'
+            id="video"
+            placeholder='video URL'
+            style="width:190px"/>
+  
+            <button id ="royalSubmitButton"> Submit Solo</button>
+    </form>
+  </div>
+  
+  <h2>The top two videos are the highest rated solos submitted by other users. 
+    <br>
+    Once uploaded, your video has 1 week to be upvoted by others for the chance to be displayed on top, 
+    <br>
+    otherwise, it will remain below in the order of votes it recieves.
+    Top voted or not, we're all here to enjoy the music from the boys we love the most! 
+    Happy Groovin!</h2>
+  
+    
+         <section class="soloEntry">
+           <div id = "bigBoxAroundText">
+              <div id = "videoText">Your video here</div>
+              <button id="deleteSoloButtonTwo">Delete</button>
+  
+            
+           </div>
+         </section>
+  
+    
+         <section id = "soloFormTwo"></section>
+    
+      </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./royalMain.js"></script>
+</body>
+</html>
