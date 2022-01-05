@@ -14,7 +14,7 @@
 }
 
    body {
-    background-color: rgb(65, 7, 49);
+    background-color: rgba(65, 7, 49, 0.541);
   } 
   
   header {
@@ -41,7 +41,7 @@
   #loginButton{
     position:relative;
     top: 280px;
-    left: 410px;
+    left: 450px;
     color: black;
     border: 1px black solid;
     height: 20px;
@@ -59,10 +59,13 @@
     width: 85px;
     height: 30px;
     border: none;
-    border-bottom: 2px solid #232323;
-    color: #232323;
+    border-bottom: 2px solid #070607;
+    color: #070407;
     background-color: rgb(245, 245, 248);
-    z-index:9
+    z-index:9;
+    /* border-radius: 10px; */
+    
+    /* padding: 4px */
   }
   
   input[type='password'] {
@@ -90,7 +93,7 @@
   #redBox{
   width: 181px;
   height: 190px;
-  background-color:rgb(231, 8, 8);
+  background-color:rgba(50, 150, 128, 0.548);
   border: dotted black 4px;
   position: relative;
   right: 400px;
@@ -136,8 +139,8 @@
 h1{
   color: rgb(5, 5, 5);
   position: relative;
-  top: 250px;
-  left: 570px;
+  top: 265px;
+  left: 615px;
   font-size: 26px;
   white-space: nowrap;
   /* background-color: rgba(95, 158, 160, 0.411);
@@ -145,6 +148,7 @@ h1{
   width: 140px;
   padding: 5px;
   border-radius: 8px; */
+  text-decoration: underline;
 }
 
 
@@ -159,8 +163,9 @@ h1{
     align-items: center;
     margin: 50px;
     border: white 1px solid;
-    left: 640px;
+    left: 680px;
     border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px;
   }
 
 
@@ -183,8 +188,9 @@ h1{
     align-items: center;
     margin: 50px;
     border: white 1px solid;
-    left: 580px;
+    left: 620px;
     border-radius:8px;
+    box-shadow: 5px 5px 5px 5px;
 }
 
 #createButton {
@@ -196,9 +202,10 @@ h3 {
  color: black;
  position: relative;
  top: 230px;
- left: 780px;
+ left: 820px;
  white-space: nowrap;
  font-size: 26px;
+ text-decoration: underline
 
 }
 
@@ -206,11 +213,23 @@ h3 {
 .leafOne{
   position:relative;
   top: 300px;
-  right:690px
+  right:690px;
+ 
 }
 
 .leafTwo{
   position: relative;
   top: 300px;
-  right: 2000px;
+  right: 2100px;
+  
+}
+
+
+h4{
+position: relative;
+color:rgb(253, 253, 251);
+width: 100px;
+top: 720px;
+left: 320px;
+white-space: nowrap;
 }

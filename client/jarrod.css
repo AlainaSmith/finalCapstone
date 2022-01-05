@@ -13,7 +13,7 @@ ol {
 
 a {
     font-size: 25px;
-    color:tomato
+    color:tomato;
 }
 
 a:hover{
@@ -105,6 +105,7 @@ form {
     border: rgb(247, 247, 250) 1px solid;
     left: 600px;
     top: 30px;
+    box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.616);
   }
 
 
@@ -273,7 +274,7 @@ input[type='text'] {
     border-radius: 50px;
     position: relative;
     left: 310px;
-    bottom: 430px;
+    bottom: 390px;
     width: 750px;
 }
    
@@ -312,11 +313,11 @@ input[type='text'] {
 }
 
 #submitButton{
-    color: white;
-    font-size: 18px;
-    background-color: rgb(39, 124, 124);
-    border-radius: 10px;
-    padding: 3px;
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    background-color: rgb(248, 250, 250);
+    border-radius: 6px;
+    padding: 1px;
 }
 
 
@@ -337,11 +338,11 @@ input[type='text'] {
 }
 
 #submitButtonEntry{
-    color: white;
-    font-size: 20px;
-    background-color: rgb(39, 124, 124);
+    color: rgb(8, 8, 8);
+    font-size: 18px;
+    background-color: rgb(247, 252, 252);
     border-radius: 10px;
-    padding: 3px;
+    padding: 1px;
 }
 
 
@@ -355,11 +356,11 @@ input[type='text'] {
 }
 
 #submitButtonEntryTwo{
-    color: white;
-    font-size: 20px;
-    background-color: rgb(39, 124, 124);
+    color: rgb(8, 8, 8);
+    font-size: 18px;
+    background-color: rgb(247, 252, 252);
     border-radius: 10px;
-    padding: 3px;
+    padding: 1px;
 }
 
 #radio-containerEntryThree {
@@ -372,15 +373,15 @@ input[type='text'] {
 }
 
 #submitButtonEntryThree{
-    color: white;
-    font-size: 20px;
-    background-color: rgb(39, 124, 124);
+    color: rgb(8, 8, 8);
+    font-size: 18px;
+    background-color: rgb(247, 252, 252);
     border-radius: 10px;
-    padding: 3px;
+    padding: 1px;
 }
 
 
 .solo-title{
     color:white;
-    font-size: 15px;
-}
+    font-size: 20px;
+    text-decoration: underline
