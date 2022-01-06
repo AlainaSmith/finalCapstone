@@ -3,6 +3,16 @@ const jarrodSubmitButton = document.querySelector('#jarrodSubmitButton')
 const deleteSoloButton = document.querySelector('#deleteSoloButton')
 const soloForm = document.querySelector('#soloForm')
 
+// const submitButton = document.getElementsByClassName('soloSubmit')
+
+// const solo = () => {
+//     alert('Solo Submitted!');
+//     }
+    
+//     submitButton.addEventListener('submit', solo);
+
+
+
 const form = document.querySelector('form')
 const baseURL = `http://localhost:4400/api/jarrodSoloEntry`
 
@@ -89,3 +99,13 @@ deleteSoloButton.addEventListener('click', deleteJarrodSoloEntry)
 getJarrodSoloEntry()
 
 
+/* Set the width of the sidebar to 250px (show it) */
+function openNav() {
+    document.getElementById("mySidepanel").style.width = "250px";
+  }
+  
+  /* Set the width of the sidebar to 0 (hide it) */
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+  }
+  

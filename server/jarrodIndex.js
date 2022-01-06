@@ -26,6 +26,5 @@ app.delete(`/api/royalSoloEntry/:id`, ctrlTwo.deleteRoyalSoloEntry)
 
 
 
-
 app.listen(4400, () => console.log("Commencing countdown, engines on...4400"));
 

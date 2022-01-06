@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(179, 67, 67);
+    background-color: rgb(52, 79, 110);
 }
 
 /* #border{
@@ -53,11 +53,11 @@ heading {
 }
 
 #enterButton {
-    color: green;
+    color: rgb(248, 3, 3);
 }
 
 #enterButton:hover{
-    color:rgb(75, 35, 216)
+    color:rgb(1, 145, 89)
 }
 #instruments {
     display:flex;
@@ -108,3 +108,16 @@ heading {
     bottom: 250px;
     left: 130px;
  }
+
+
+ #login{
+     position: relative;
+     left: 1250px;
+     top: 60px;
+     font-size: 20px;
+     color: rgb(2, 2, 2)
+ }
+
+ #login:hover{
+    color:rgb(141, 158, 154)
+}

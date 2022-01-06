@@ -11,21 +11,37 @@
  
     <main>
       <section>
-        <div id = 'clickers'>
+        <!-- <div id = 'clickers'>
         <ol>
           <a href="./fullBand.html" class = 'navbutton'>Musician Homepage</a></li>
           <a href="./royal.html" class = 'navbutton'>Masat</a></li>
           <a href="./strings.html" class = 'navbutton'>Apostol</a></li>
           <a href="./failing.html" class = 'navbutton'>Failing</a></li>
         </ol>
-      </div>
+      </div> -->
 
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="./fullBand.html">Musician <br>Homepage</a>
+        <a href="./royal.html">Royal</a>
+        <a href="./strings.html">Apostal</a>
+        <a href="./failing.html">Failing</a>
+      </div>
+      
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
+      <h2>Collapsed Sidepanel</h2>
+      <p>Content...</p>
+
+
+   
+      <img id = "imgOne" src = "https://images.unsplash.com/photo-1521052313888-1181c2f5f406?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBmbG9yYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+      
 
       <header>
         Jarrod Walker - Mandolin
       </header>
       <center><div id="borderBottom"></div></center> 
-      
+      <center><div id="borderBottomTwo"></div></center> 
 
       <div class = "twoSoloVideos">
       <section id = "soloUno">
@@ -136,11 +152,11 @@
 
   
 
-<div class = "uploadSoloContainer">
-  <form id = 'videoUpload'>
-    <h3>Upload your favorite solo here and view the video below
+  <h3>Upload your favorite solo below, then scroll down to view your video.
       
-    </h3>
+</h3>
+  <form id = 'videoUpload'>
+    
     <input type='text'
     id="title" 
     placeholder="Username"
@@ -151,18 +167,19 @@
           placeholder='video URL'
           style="width:190px"/>
 
-          <button id ="jarrodSubmitButton"> Happy Groovin!</button>
+    
+          <button  class = "soloSubmit"id ="jarrodSubmitButton"> Happy Groovin!</button>
+
   </form>
 </div>
-<div class = "flexFont">
-<h2>The top two videos are the highest rated solos submitted by other users. 
-  <br>
-  <h4>Once uploaded your video will be rated by others for the chance to be displayed on top, 
-  </h4>
-  <h5>otherwise, it will remain below in the order of the time it was uploaded.</h5>
-  <h6>Top rated or not, we're all here to enjoy the music from the boys we love the most! </h6>
+
  
-</div>
+    <h2>The top two videos are the highest rated solos submitted by other users.
+        Once uploaded your video will be rated by others for the chance to be displayed on top.
+        Otherwise, it will remain below in the order of the time it was uploaded.
+        Top rated or not, we're all here to enjoy the music from the boys we love the most!
+      </h2>
+
 
        <section class="soloEntry">
          <div id = "bigBoxAroundText">
@@ -324,7 +341,10 @@
       <center><div id="borderRight"></div></center> 
       <center><div id="borderEnd"></div></center>  -->
 
-      
+      <div class = "images">
+        <img id = "imgTwo" src = "https://images.unsplash.com/photo-1521052313888-1181c2f5f406?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBmbG9yYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+        <img id = "imgThree" src = "https://images.unsplash.com/photo-1521052313888-1181c2f5f406?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBmbG9yYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+      </div>
   
 
 

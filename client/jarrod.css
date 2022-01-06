@@ -1,11 +1,10 @@
-body{
-        background-image: url(https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODd8fGdsaXR0ZXJ8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+/* body{
+        background-image: url(https://images.unsplash.com/photo-1521052313888-1181c2f5f406?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBmbG9yYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
         z-index: -5;
         height: 100vh;
-}
-
-
-ol {
+        
+} */
+/* ol {
     display:flex;
     justify-content: space-evenly;
     margin: 40px;
@@ -14,88 +13,137 @@ ol {
 a {
     font-size: 25px;
     color:tomato;
+}  */
+
+body {
+    background-color: black;
 }
 
-a:hover{
-    color:rgb(75, 35, 216)
+.sidepanel {
+    height: 250px; 
+    width: 0px;
+    position: fixed;
+    z-index: 2; 
+    top: 5px;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 0px;
+  }
+  
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    border-radius: 4px;
+    z-index:1
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+
+
+#imgOne {
+    z-index: -5;
+    height: 100vh;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    position: relative;
+    left: 450px;
+    top: -360px
 }
 
 header {
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     margin: 30px;
+    position: relative;
+    top: -970px;
 }
-
-#borderBottom {
-    border-top: 3px double #8a8383;
-    position: relative;
-    top: -19px;
-    bottom: 0px;
-    width: 775px;
-  }
-  
-
-  /* #borderLeft {
-    border-left:  3px double #8a8383;
-   position: relative;
-   bottom: 1600px;
-   width: 100px;
-   height:2100px;
-   right: 850px;
-  } */
-
-  /* #borderRight {
-    border-right:  3px double #8a8383;
-    position: relative;
-    bottom: 3710px;
-    height: 2100px;
-    left: 180px
-  }
-
-
-  #borderEnd {
-      border: 3px double #8a8383;
-      position: relative;
-      bottom: 3600px;
-      width: 1200px;
-      right: 600px;
-  } */
+ 
 
 .twoSoloVideos {
     display: flex;
     justify-content: space-evenly;
     /* flex-direction: row; */
     margin:30px;
-   
+    position: relative;
+    top: -780px;
 }
 
+#soloUno{
+    box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.327);
+}
 
-/* .uploadContainer {
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: rgb(246, 241, 241);
-    width: 300px;
-    height: 300px;
+#soloTwo{
+    box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.327);
+}
+
+#borderBottom {
+    border-top: 3px double #8a8383;
     position: relative;
-    left: 200px;
-    top: 80px;
-    align-items: center;
-    text-align: center;
-} */
+    top: -355px;
+    bottom: 0px;
+    width: 775px;
+  }
+
+  #borderBottomTwo {
+    border-top: 3px double #8a8383;
+    position: relative;
+    top: -155px;
+    bottom: 0px;
+    width: 775px;
+  }
+
+
 
 .uploadSoloContainer{
     display: flex;
     justify-content: flex-start;
     position: relative;
-    left: 150px;
+    left: 50px;
+  
     
 }
 form {
-    width: 550px;
-    min-height: 300px;
-    background-color: rgb(228, 167, 87);
+    width: 350px;
+    min-height: 280px;
+    background-color: rgba(211, 153, 208, 0.781);
     position: relative;
     display: flex; 
     flex-direction: column;
@@ -103,80 +151,49 @@ form {
     align-items: center;
     /* margin: 100px; */
     border: rgb(247, 247, 250) 1px solid;
-    left: 600px;
-    top: 30px;
-    box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.616);
+    left: 520px;
+    top: -460px;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.616);
   }
 
 
 
-h2{
-    color:rgb(5, 5, 5);
+  h2{
+    color:rgb(185, 178, 165);
     position: relative;
-    bottom: 290px;
-    width: 550px;
-    left: 110px;
-    background-color: rgb(143, 79, 127);
-    padding: 5px;
+    bottom: 1150px;
+    width: 1000px;
+    left: 178px;
+    /* background-color: white; */
+    padding: 20px;
     text-align: center;
-    font-size: 24px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-h4{
-    color:rgb(5, 5, 5);
-    position: relative;
-    bottom: 310px;
-    width: 550px;
-    left: 110px;
-    background-color: rgb(143, 79, 127);
-    padding: 5px;
-    text-align: center;
-    font-size: 24px;
-  
-}
-h5{
-    color:rgb(5, 5, 5);
-    position: relative;
-    bottom: 340px;
-    width: 550px;
-    left: 110px;
-    background-color: rgb(143, 79, 127);
-    padding: 5px;
-    text-align: center;
-    font-size: 24px;
-}
-
-h6{
-    color:rgb(5, 5, 5);
-    position: relative;
-    bottom: 385px;
-    width: 550px;
-    left: 110px;
-    background-color: rgb(143, 79, 127);
-    padding: 5px;
-    text-align: center;
-    font-size: 24px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-
+    font-size: 26px;
+    }
 
 
 h3 {
-    color: rgb(14, 10, 10);
+    color: rgb(207, 183, 183);
     text-align: center;
-    font-size: 21px;
+    font-size: 30px;
+    position: relative;
+    top: -490px;
+    background-color: rgba(112, 104, 104, 0.315);
+    padding: 20px;
+    border: black;
+    border-radius: 10px;
+    width:900px;
+    left: 225px;
+    z-index: 10
     
 }
 input[type='text'] {
-    width: 85%;
+    
     height: 30px;
     border: none;
-    border-bottom: 2px solid #311cf1;
+    border-bottom: 2px solid #0703f5;
     color: #070707;
     background-color: snow;
+    border-radius: 2px
   }
 /* input{
     width: 85px;
@@ -198,14 +215,15 @@ input[type='text'] {
 
 
 #jarrodSubmitButton {
-    background-color: #430261;
+    background-color: #e9e1ec;
     width: 126px;
     height: 30px;
-    color: rgb(142, 174, 235);
+    color: rgb(4, 5, 5);
     border: none;
     margin: 20px;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 16px;
+    z-index: 5
 }
 
 
@@ -236,10 +254,11 @@ input[type='text'] {
     background-color: rgb(5, 5, 5);
     color: rgb(3, 3, 5);
     position: relative;
-    top: 700px;
+    top: -100px;
+    left: -520px
 }
 .jarrodSolo{
-    background-color: rgb(30, 44, 107);
+    background-color: rgb(199, 200, 207);
     width: 375px;
     margin: 20px; 
     display: flex;
@@ -252,13 +271,7 @@ input[type='text'] {
     margin-top: -10px;
 }
 
-#soloUno{
-    border: white 1px solid;
-}
 
-#soloTwo{
-    border: white 1px solid;
-}
 
 #soloForm {
     display: flex;
@@ -266,16 +279,17 @@ input[type='text'] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(4, 157, 245, 0.438);
+    background-color: rgba(25, 90, 155, 0.438);
     border: 2px solid black;
-    padding: 75px;
+    padding: 10px;
     box-sizing:border-box;
     margin: 10px;
     border-radius: 50px;
     position: relative;
     left: 310px;
-    bottom: 390px;
+    bottom: 580px;
     width: 750px;
+    z-index: 5
 }
    
     left: 200px;
@@ -296,13 +310,14 @@ input[type='text'] {
     color: white;
 }
 
-#submitButton{
+/* #submitButton{
     color: white;
     font-size: 18px;
     background-color: rgb(39, 124, 124);
     border-radius: 10px;
     padding: 3px;
-}
+    z-index: 8
+} */
 
 #radio-container {
     width: 100%;
@@ -331,7 +346,7 @@ input[type='text'] {
 }
 #radio-containerEntry {
     position: relative;
-    bottom: 1385px;
+    bottom: 1100px;
     width: 600px;
     left: 300px;
     
@@ -340,9 +355,12 @@ input[type='text'] {
 #submitButtonEntry{
     color: rgb(8, 8, 8);
     font-size: 18px;
-    background-color: rgb(247, 252, 252);
+    background-color: rgb(250, 246, 249);
     border-radius: 10px;
     padding: 1px;
+    z-index:10;
+    /* position: relative;
+    bottom: 150px; */
 }
 
 
@@ -364,12 +382,11 @@ input[type='text'] {
 }
 
 #radio-containerEntryThree {
-    color: white;
+    color: rgb(250, 246, 246);
     position: relative;
-    top: 390px;
+    bottom: 860px;
     width: 500px;
     right: 10px;
-    
 }
 
 #submitButtonEntryThree{
@@ -385,3 +402,30 @@ input[type='text'] {
     color:white;
     font-size: 20px;
     text-decoration: underline
+}
+
+/* .soloSubmit {
+
+} */
+
+
+
+
+.images {
+    display: flex;
+  
+}
+
+#imgTwo {
+  position: relative;
+  top: -1300px;
+    right: 810px;
+}
+
+#imgThree {
+  position: relative;
+  top: -1300px;
+    right:190px;
+    transform:scaleX(-1)
+
+}
